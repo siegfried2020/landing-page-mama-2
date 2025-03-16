@@ -1,0 +1,36 @@
+/* data:[{
+name: shower gel bounty,
+category: active
+}] */
+
+#root {
+  width: 100%;
+  
+  text-align: center;
+}
+
+.header-container{
+  color: blueviolet;
+  font-size: 24px;
+}
+
+.product-img img{
+  width: 200px;
+  height: auto;
+}
+
+.products{
+  border: 2px solid bisque;
+  color: beige;
+}
+
+.product-img{
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-template-3{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
