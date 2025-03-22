@@ -13,6 +13,7 @@ import Tropical from "./assets/images/tropical shower gel.jpeg"
 import Shampoo from "./assets/images/shampoo.jpeg"
 import Conditioner from "./assets/images/conditioner.jpeg"
 import Mango from "./assets/images/Mango hand soap.jpeg"
+import Cherry_hand_wash from "./assets/images/cherry hand soap.jpeg"
 function App() {
   const [count, setCount] = useState(0)
 
@@ -114,6 +115,11 @@ function App() {
         <div class="product-img">
           <p>Mango Hand Wash (مانجو)</p>
           <img src={Mango} alt=""/>
+        </div>
+
+        <div class="product-img">
+          <p>Cherry Hand Wash (كريز)</p>
+          <img src={Cherry_hand_wash} alt=""/>
         </div>
 
       </div>
